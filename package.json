@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "nodemon src/server.js" 
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "2.8.5",
+    "dotenv": "8.2.0",
     "express": "4.17.1",
-    "knex": "0.21.5"
+    "knex": "0.21.5",
+    "mysql": "2.18.1"
   },
   "devDependencies": {
     "nodemon": "2.0.4"
