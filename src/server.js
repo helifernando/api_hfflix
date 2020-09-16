@@ -1,8 +1,8 @@
-require('dotenv/config')
+require('dotenv/config');
 
 const express = require("express");
 
-const knex = require("knex")
+const knex = require("knex");
 
 const cors = require("cors");
 
